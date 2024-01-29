@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -14,8 +16,8 @@
         android:theme="@style/Theme.Sum"
         tools:targetApi="31">
         <activity
-            android:name="tuan6.Tuan611MainActivity"
-            android:exported="true">
+            android:name="tuan6_kotlin.Tuan612MainActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,13 +25,16 @@
             </intent-filter>
         </activity>
         <activity
+            android:name="tuan6.Tuan611MainActivity"
+            android:exported="false">
+
+        </activity>
+        <activity
             android:name="tuan6.Tuan6MainActivity"
             android:exported="false" />
         <activity
             android:name="Tuan3_2.Listview_Kotlin"
-            android:exported="false">
-
-        </activity>
+            android:exported="false"></activity>
         <activity
             android:name="Tuan3.ListViewT3"
             android:exported="false" />
